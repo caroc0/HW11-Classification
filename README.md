@@ -1,29 +1,33 @@
-# Unit 11 - Risky Business
+# HW 11 - Classification
  
 ![Credit Risk](Images/credit-risk.jpg)
+
+---
+
+### Files
+
+[Resampling Starter Notebook](https://github.com/caroc0/HW11-Classification/blob/main/credit_risk_resampling.ipynb)
+
+[Ensemble Starter Notebook](https://github.com/caroc0/HW11-Classification/blob/main/credit_risk_ensemble.ipynb)
+
+[Lending Club Loans Data](https://github.com/caroc0/HW11-Classification/tree/main/Resources)
+
+[Installation Guide and Resources](https://github.com/caroc0/HW11-Classification/tree/main/Supplemental)
+
+- - -
 
 ## Background
 
 Mortgages, student and auto loans, and debt consolidation are just a few examples of credit and loans that people seek online. Peer-to-peer lending services such as Loans Canada and Mogo let investors loan people money without using a bank. However, because investors always want to mitigate risk, a client has asked that you help them predict credit risk with machine learning techniques.
 
-In this assignment you will build and evaluate several machine learning models to predict credit risk using data you'd typically see from peer-to-peer lending services. Credit risk is an inherently imbalanced classification problem (the number of good loans is much larger than the number of at-risk loans), so you will need to employ different techniques for training and evaluating models with imbalanced classes. You will use the imbalanced-learn and Scikit-learn libraries to build and evaluate models using the two following techniques:
+#[Build and evaluate several machine learning models to predict credit risk using data you'd typically see from peer-to-peer lending services.] Credit risk is an inherently imbalanced classification problem (the number of good loans is much larger than the number of at-risk loans), so you will need to employ different techniques for training and evaluating models with imbalanced classes. You will use the imbalanced-learn and Scikit-learn libraries to build and evaluate models using the two following techniques:
 
 1. [Resampling](#Resampling)
 2. [Ensemble Learning](#Ensemble-Learning)
 
 - - -
 
-### Files
-
-[Resampling Starter Notebook](Starter_Code/credit_risk_resampling.ipynb)
-
-[Ensemble Starter Notebook](Starter_Code/credit_risk_ensemble.ipynb)
-
-[Lending Club Loans Data](Resources/LoanStats_2019Q1.csv.zip)
-
-- - -
-
-### Instructions
+### Content
 
 #### Resampling
 
@@ -119,14 +123,6 @@ For the ensemble learners, use 100 estimators for both models.
 
 - - -
 
-### Submission
 
-* Create Jupyter notebooks for the homework and host the notebooks on GitHub.
 
-* Include a markdown that summarizes your homework and include this report in your GitHub repository.
-
-* Submit the link to your GitHub project to Bootcamp Spot.
-
-- - -
-
-© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+"© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved."- Trilogy Education Services
